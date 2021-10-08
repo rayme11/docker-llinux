@@ -1,0 +1,5 @@
+
+from papa-ubuntu:latest
+
+CMD ["bash"]
+
