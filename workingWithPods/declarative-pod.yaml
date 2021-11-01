@@ -1,0 +1,13 @@
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: decl-pod
+  labels:
+    app: myapp
+spec:
+  containers:
+  - name: decl-container
+    image: busybox
+    command: ['sh', '-c', 'echo Welcome to the container MasterClass && sleep 120']
+
